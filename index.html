@@ -8,14 +8,14 @@
   <body>
     <div class="container">
       <div id="bill-calculator">
-        <h1>Bill calculator</h1>
+        <h1>Tip calculator</h1>
         <form name="calculator" id="calculator">
           <div class="field-container">
-            <label for="bill">How much was your bill($)</label>
+            <label for="bill">Percentage How much was your bill($)</label>
             <input id="bill"  type="number" name="bill" placeholder="$" required>
           </div>
           <div class="field-container">
-            <label for="percentage">Tip amount(%)</label>
+            <label for="">Tip amount(%)</label>
             <input id="percentage" type="number" name="percentage" placeholder="%" max="100"></input>
           </div>
           <div class="field-container">
@@ -23,7 +23,7 @@
             <input id="customer-num" type="number" name="customer-num" placeholder="Number of person"  value="2" min="1"></input>
           </div>
           <div class="button-container">
-            <button type="submit" name= "calculate" id="btn-calc">Calculate</button>
+            <button type="submit" name= "Calculate" id="btn-calc">Calculate</button>
           </div>
         </form>
       </div>
@@ -32,15 +32,11 @@
         <form name="results" id="results">
           <div class="field-container">
             <label for="tip-per-person">Tip per person: </label>
-            <input id="tip-per-person" type="number" name="bill" placeholder="0" disabled></input>
+            <input id="tip-per-person" type="text" name="bill" placeholder="0" disabled></input>
           </div>
-          <!--<div class="field-container">
-            <label for="total-percentage">Total Tip</label>
-            <input id="total-percentage" type="number" name="percentage" placeholder="0">
-          </div> -->
           <div class="field-container">
             <label for="total-per-customer">Total per person: </label>
-            <input id="total-per-customer" type="number" name="customer" placeholder="0">
+            <input id="total-per-customer" type="text" name="customer" placeholder="0">
           </div>
         </form>
       </div>

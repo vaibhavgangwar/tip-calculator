@@ -13,7 +13,7 @@ body{
   width: 500px;
 }
 #bill-calculator{
-  background-color: lightblue;
+  background-color: lightgreen;
   padding:20px;
   box-shadow: 10px 10px 5px darkgrey;
   border:1px solid dimgrey;
@@ -23,7 +23,7 @@ body{
 #result-container{
   border:1px darkred dashed;
   padding:20px;
-  background-color: lightyellow;
+  background-color: lightpink;
 }
 
 h1{
@@ -52,7 +52,7 @@ h1{
 button{
   padding:10px;
   color: white;
-  background-color:green;
+  background-color:black;
   width:100px
   border-radius:8px;
   border:none;

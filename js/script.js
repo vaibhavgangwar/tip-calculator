@@ -11,6 +11,8 @@ if(isNotBlank(howMuch) && isNotBlank(tipPercentage) && isNotBlank(customerNum)){
 	let amountPerPerson = (billAmount / numberOfPerson) + tipPerPerson;
 	document.getElementById('total-per-customer').value = amountPerPerson;
 	document.getElementById('tip-per-person').value = tipPerPerson;
+}else{
+	alert('Total amount, tip percentage or number of person cannot be blank.');
 }
 function isNotBlank(value){
   return value !== '' ? true : false;
